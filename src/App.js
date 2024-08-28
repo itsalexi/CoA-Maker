@@ -71,6 +71,11 @@ const CertificateOfAuthorship = () => {
             setSignature(savedSignature);
         }
         loadStudentData();
+        const currentDate = new Date().toISOString().split('T')[0];
+        setFormData((prevData) => ({
+            ...prevData,
+            date: currentDate,
+        }));
     }, []);
 
     useEffect(() => {

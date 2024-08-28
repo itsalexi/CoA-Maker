@@ -711,6 +711,24 @@ const CertificateOfAuthorship = () => {
                     </div>
                 </div>
             )}
+            <footer
+                style={{
+                    textAlign: 'center',
+                    padding: '20px',
+                    marginTop: '40px',
+                    borderTop: '1px solid #e0e0e0',
+                }}
+            >
+                Made by{' '}
+                <a
+                    href="https://alexi.life"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Alexi
+                </a>{' '}
+                💙
+            </footer>
         </div>
     );
 };
